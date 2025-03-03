@@ -1,5 +1,6 @@
-def add_acount(acount:list[str]):
-    return acount
+def add_acount(name:str):
+    account=list.append(name)
+    return account
 def remove_account(name:str):
     for i in range(len(add_acount())):
         if(add_acount().index(i)==name):
